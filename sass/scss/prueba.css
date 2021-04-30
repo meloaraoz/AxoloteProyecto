@@ -74,6 +74,7 @@ nav {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .contenedor__contacto--mod {
@@ -86,10 +87,10 @@ nav {
 }
 
 .contenedor__contacto--boton {
-  padding: 3px;
+  padding: 1rem;
   color: black, sans-serif;
   background-color: whitesmoke;
-  border: transparent;
+  margin: 1rem;
 }
 
 /* BEM iconos */

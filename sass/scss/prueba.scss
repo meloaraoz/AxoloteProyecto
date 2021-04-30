@@ -102,6 +102,7 @@ nav {
   justify-content: center;
 
   min-height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 
@@ -120,15 +121,13 @@ nav {
 
 .contenedor__contacto--boton {
 
-  padding: 3px;
+  padding: 1rem;
 
   color: $font ;
 
   background-color: $fondo;
 
-  border: transparent;
-
-  
+  margin: 1rem;
 
 }
 
