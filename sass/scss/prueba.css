@@ -196,25 +196,15 @@ nav {
   }
 }
 
-.remeras__imagenes--modificador {
-  max-width: 10rem;
-}
-
 @media (min-width: 768px) {
   .contenedor__imagenes--modificador {
-    max-width: 20rem;
-  }
-  .remeras__imagenes--modificador {
     max-width: 20rem;
   }
 }
 
 @media (min-width: 1024px) {
   .contenedor__imagenes--modificador {
-    max-width: 40rem;
-  }
-  .remeras__imagenes--modificador {
-    max-width: 40rem;
+    max-width: 25rem;
   }
 }
 /*# sourceMappingURL=prueba.css.map */
