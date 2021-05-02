@@ -180,7 +180,7 @@ nav {
   font-size: 23px;
 }
 
-.card-footer {
+.card .card-footer {
   color: whitesmoke;
   background-color: black;
 }
