@@ -32,8 +32,13 @@ footer {
   text-align: center;
   width: 100%;
   align-self: flex-end;
-  
 }
+.logoFooter {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 8rem;
+  height: 6rem;
+} 
 
 
 li {
@@ -59,15 +64,6 @@ p {
 
 
 
-.navbar-brand {
-
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-
-
-
 nav {
   font-family: $font;
   color: black;
@@ -75,7 +71,17 @@ nav {
   width: 100%;
   font-family: 'Bebas Neue', sans-serif;
 
+  .navbar-brand {
+    font-size: 3rem;
+    padding: 3px;
+    line-height: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+} 
 }
+
+
+
 
 
 .accordion {
@@ -83,50 +89,47 @@ nav {
   text-align: center;
 }
 
+#seleccionTalle {
+  background-color: black;
+  color: white;
+}
 
-/*BEM Contacto */ 
-
-
+ /* CONTACTO */ 
 
 .contenedor{
 
   display: flex;
-
   justify-content: center;
-
   min-height: 100vh;
   font-family: 'Bebas Neue', sans-serif;
+
+  .contenedor__contacto--mod {
+
+    margin: 3rem;
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 20px;
+  }
+  
+  .contenedor__contacto--boton {
+
+    padding: 1rem;
+  
+    color: $font ;
+  
+    background-color: $fondo;
+  
+    margin: 1rem;
+  
+  }
 }
 
 
 
-.contenedor__contacto--mod {
 
-  margin: 3rem;
-  width: 30rem;
-  height: 30rem;
-  text-align: center;
-  margin-top: 4rem;
-  font-size: 20px;
-}
-
-
-
-.contenedor__contacto--boton {
-
-  padding: 1rem;
-
-  color: $font ;
-
-  background-color: $fondo;
-
-  margin: 1rem;
-
-}
-
-
-
- /* BEM iconos */ 
+ /* ICONOS */ 
 
 .iconos {
 
@@ -134,15 +137,14 @@ nav {
 
   justify-content: center;
 
+  .iconos__pie {
+
+    padding: 6px;
+   
+  }
 }
 
-.iconos__pie {
 
-  padding: 6px;
-
-  
-
-}
 
  /*BEM contenedor Imagenes  */ 
 
@@ -202,6 +204,7 @@ nav {
 
   justify-content: center;
 
+
 }
 
 .boton__opcion--opcion {
@@ -216,13 +219,12 @@ nav {
 .boton__opcion--titulo {
 
   margin: 2px;
-  
 
 }
 
 
 
-/*BEM Devoluciones */ 
+/* Devoluciones */ 
 
 
 .devoluciones {
@@ -230,20 +232,20 @@ nav {
   padding: 1rem;
   height: 40rem;
   min-height: 100vh;
-}
 
-.devoluciones__lista {
-  font: sans-serif;
-  text-decoration: none;
-  list-style: none;
+  .devoluciones__lista {
+    font: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+  }
   
-
+  .devoluciones__lista--item {
+   margin: 3px; 
+  font-size: 20px;
+  }
 }
 
-.devoluciones__lista--item {
- margin: 3px; 
-font-size: 20px;
-}
 
 
 .card {
@@ -268,38 +270,16 @@ font-size: 20px;
   font-size: 18px;
   
 }
-@media (min-width: 480px) {
-  .contenedor__imagenes--modificador {
-    max-width: 10rem;
-  }
-}
 
-
-@media (min-width: 768px) {
-  .contenedor__imagenes--modificador {
-    max-width: 20rem;
-  }
-  
-}
-
-@media (min-width: 1024px) {
-  .contenedor__imagenes--modificador {
-    max-width: 25rem;
-  }
-  
-}
 
 @media (min-width: 320px) {
-  .contenedor__imagenes--modificador {
-    max-width: 13rem;
-    
-  }
+
   .nav {
     min-width: 100%;
   }
   .navbar  {
     width: 100%;
   }
-
   
 }
+

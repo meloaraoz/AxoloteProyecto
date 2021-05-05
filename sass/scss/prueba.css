@@ -25,6 +25,13 @@ footer {
       align-self: flex-end;
 }
 
+.logoFooter {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 8rem;
+  height: 6rem;
+}
+
 li {
   text-decoration: none;
   list-style: none;
@@ -40,12 +47,6 @@ p {
   text-align: center;
 }
 
-.navbar-brand {
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-
 nav {
   font-family: black, sans-serif;
   color: black;
@@ -54,11 +55,24 @@ nav {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+nav .navbar-brand {
+  font-size: 3rem;
+  padding: 3px;
+  line-height: 2px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .accordion {
   text-align: center;
 }
 
-/*BEM Contacto */
+#seleccionTalle {
+  background-color: black;
+  color: white;
+}
+
+/* CONTACTO */
 .contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,7 +84,7 @@ nav {
   font-family: 'Bebas Neue', sans-serif;
 }
 
-.contenedor__contacto--mod {
+.contenedor .contenedor__contacto--mod {
   margin: 3rem;
   width: 30rem;
   height: 30rem;
@@ -79,14 +93,14 @@ nav {
   font-size: 20px;
 }
 
-.contenedor__contacto--boton {
+.contenedor .contenedor__contacto--boton {
   padding: 1rem;
   color: black, sans-serif;
   background-color: whitesmoke;
   margin: 1rem;
 }
 
-/* BEM iconos */
+/* ICONOS */
 .iconos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,7 +110,7 @@ nav {
           justify-content: center;
 }
 
-.iconos__pie {
+.iconos .iconos__pie {
   padding: 6px;
 }
 
@@ -150,7 +164,7 @@ nav {
   margin: 2px;
 }
 
-/*BEM Devoluciones */
+/* Devoluciones */
 .devoluciones {
   margin-top: 2rem;
   padding: 1rem;
@@ -158,13 +172,13 @@ nav {
   min-height: 100vh;
 }
 
-.devoluciones__lista {
+.devoluciones .devoluciones__lista {
   font: sans-serif;
   text-decoration: none;
   list-style: none;
 }
 
-.devoluciones__lista--item {
+.devoluciones .devoluciones__lista--item {
   margin: 3px;
   font-size: 20px;
 }
@@ -189,28 +203,7 @@ nav {
   font-size: 18px;
 }
 
-@media (min-width: 480px) {
-  .contenedor__imagenes--modificador {
-    max-width: 10rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .contenedor__imagenes--modificador {
-    max-width: 20rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contenedor__imagenes--modificador {
-    max-width: 25rem;
-  }
-}
-
 @media (min-width: 320px) {
-  .contenedor__imagenes--modificador {
-    max-width: 13rem;
-  }
   .nav {
     min-width: 100%;
   }
