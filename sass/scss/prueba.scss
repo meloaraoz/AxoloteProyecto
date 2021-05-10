@@ -1,4 +1,4 @@
-$title-font: normal, sans-serif, 24px;
+$title-font: 'Bebas Neue', sans-serif;
 $fondo: whitesmoke;
 $font: black, sans-serif;
 
@@ -7,30 +7,48 @@ $font: black, sans-serif;
   margin: 0;
 }
 
-.carousel-item {
-  height: 40rem;
-  
-  
+.carrusel-item {
+  height: 30rem;
 }
 
-.nav-link {
-  margin-top: 1rem;
-}
-
-h2 {
-  font-family: 'Bebas Neue', sans-serif;
+.productosDestacados {
+  font-family: $title-font;
   text-align: center;
-  margin-top: 3rem;
-  
+  margin-top: 2rem;
+  font-size: 28px;
+}
+
+.tituloCarrusel {
+  font-family: $title-font;
+  font-size: 32px;
+}
+.tituloCarruselNegro  {
+  color: black;
+  font-size: 32px;
+  font-family: $title-font;
+}
+.parrafoCarrusel {
+  font-family: $title-font;
+}
+
+.cuerpoIndice {
+  background-color: whitesmoke;
+}
+.contenedor {
+  background-color: black;
+}
+
+.cuerpoProductos {
+  color: white;
 }
 
 body {
 
     font-size: 14pt;
 
-    background-color:rgb(8, 8, 8);
+    background-color: whitesmoke;
 
-    color: $fondo;
+    color:rgb(0, 0, 0);
 
     min-height: 100vh;
 
@@ -40,6 +58,10 @@ body {
 a {
   color: black;
   font-size: 25px;
+}
+
+a:hover {
+  color: rgb(204, 174, 252);
 }
 
 footer {
@@ -72,16 +94,24 @@ h5 {
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 25px;
+  color: black;
+}
+h8 {
+  color: black;
+  padding: 2px;
+  font-family: $title-font;
+  font-size: 20px;
+
 }
 
 p {
   text-align: center;
+  color: black;
 }
 
 
 
 nav {
-  font-family: $font;
   color: black;
   font-size: 1rem;
   width: 100%;
@@ -89,15 +119,21 @@ nav {
 
   .navbar-brand {
     font-size: 3rem;
-    padding: 3px;
+    padding: 1px;
     line-height: 2px;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    
 } 
 }
 
-
-
+.nav-link {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.navbar-toggler {
+  margin-top: 10px;
+}
 
 
 .accordion {
@@ -108,17 +144,18 @@ nav {
 #seleccionTalle {
   background-color: black;
   color: white;
+  
 }
 
  /* CONTACTO */ 
 
 .contenedor{
-
   display: flex;
   justify-content: center;
   min-height: 100vh;
   font-family: 'Bebas Neue', sans-serif;
-
+  background-color: white;
+  color: black;
   .contenedor__contacto--mod {
 
     margin: 3rem;
@@ -126,20 +163,9 @@ nav {
     height: 30rem;
     text-align: center;
     margin-top: 4rem;
-    font-size: 20px;
+    font-size: 25px;
   }
   
-  .contenedor__contacto--boton {
-
-    padding: 1rem;
-  
-    color: $font ;
-  
-    background-color: $fondo;
-  
-    margin: 1rem;
-  
-  }
 }
 
 
@@ -220,6 +246,7 @@ nav {
 
   justify-content: center;
 
+  margin-left: 4px;
 
 }
 
@@ -229,16 +256,33 @@ nav {
 
   margin: 4px;
 
+  font-size: 1rem;
+
+  margin-left: 2px;
+
+  background-color: whitesmoke;
   
 }
+
 
 .boton__opcion--titulo {
 
   margin: 2px;
 
 }
+.btn {
+  background-color:black;
+  font-family: $title-font;
+  color: white;
+  width: 6rem;
+  border: rgb(163, 163, 163);
 
+}
 
+.buttonContainer :hover{
+  background-color: rgb(208, 184, 248);
+  color: black;
+}
 
 /* Devoluciones */ 
 
@@ -296,6 +340,8 @@ nav {
   .navbar  {
     width: 100%;
   }
-  
+  .nav {
+    width: 100%;
+  }
 }
 
