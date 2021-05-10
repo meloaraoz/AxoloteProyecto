@@ -3,6 +3,20 @@
   margin: 0;
 }
 
+.carousel-item {
+  height: 40rem;
+}
+
+.nav-link {
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  margin-top: 3rem;
+}
+
 body {
   font-size: 14pt;
   background-color: #080808;
