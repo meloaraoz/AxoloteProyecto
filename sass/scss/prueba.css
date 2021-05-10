@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+.contenedorBotonesInicio {
+  background-color: black;
+  width: 100%;
+  height: 20rem;
+}
+
 .carrusel-item {
   height: 30rem;
 }
@@ -12,6 +18,31 @@
   text-align: center;
   margin-top: 2rem;
   font-size: 28px;
+}
+
+.botonInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+}
+
+.botonInicioM {
+  padding: 1rem;
+}
+
+.botonInicioM :hover {
+  background-color: #ccaefc;
+  font-size: 20px;
 }
 
 .tituloCarrusel {
