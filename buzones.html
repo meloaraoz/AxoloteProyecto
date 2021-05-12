@@ -5,32 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
-    content="marca, ropa, unisex, sin genero, emprendimiento, no binario, oversize, buzones, ropa grande,estampado, estampa, artesanal, ecologico">
+    content="marca, ropa, unisex, sin genero, emprendimiento, prendas, ropa oversize, oversize, remerones, estampado, estampa, artesanal, ecologico">
   <meta name="description" content="Tienda online de ropa sin genero. Emprendimiento autogestivo y artesanal">
 
-  <title>Buzones - Axolote - Ropa Sin Genero</title>
+  <title> Buzones - Axolote - Ropa Sin Genero</title>
+  <link rel="icon" href="img/favicon.png">
 
-  <!-- Bootstrap y CSS -->
-
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/scss/prueba.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-
-    <!--Fuentes-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sass/scss/prueba.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 
 
+  <!--Fuentes-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<!--Navegacion-->
 
 <body class="cuerpoProductos">
-  <!--Seccion Navegacion-->
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">AXOLOTE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -42,7 +40,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            PRODUCTOS
+            Productos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="remeras.html">Remeras</a>
@@ -54,7 +52,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+          <a class="nav-link" href="preguntasFrecuentes.html"> Dudas Frecuentes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="talles.html"> Talles </a>
@@ -73,6 +71,7 @@
     </div>
   </nav>
 
+  <!--Fin seccion Navegacion -->
 
 
   <!--Productos-->
@@ -83,32 +82,33 @@
       <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
         <div class=" galeriaItem-inner p-2 rounded">
           <div class="col-12">
-            <h5> Buzon con Cierres</h5>
+            <h5> Buzon con cierres </h5>
           </div>
           <div class="imagenWrapper col-12">
-            <a href="https://www.axolotesingenero.com.ar/buzones-oversize/buzon-oversize-con-cierres"> <img
-                class="img-fluid" src="img/buzonCierres.jpg" alt=""> </a>
+            <img class="img-fluid" src="img/buzonCierres.jpg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
             <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas.</p>
-              <p>$4900</p>
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
             </div>
             <div class="boton__opcion">
-              <h8>Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
+              <h8 class="boton__opcion--titulo">Talle</h8>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
               </select>
+            </div>
+            <div>
+              <p class="precio"> $5600</p>
             </div>
             <div class=" buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> +</button>
+                    <a href="https://mpago.la/1URFART"> <button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -120,31 +120,34 @@
       <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
         <div class=" galeriaItem-inner p-2 rounded">
           <div class="col-12">
-            <h5> Remerón Suricata Mutada</h5>
+            <h5> BUZON PSILOCYBE</h5>
           </div>
           <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/surcataMutada.jpg" alt="">
+            <img class="img-fluid" src="img/buzon.jpeg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
 
             <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas.</p>
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
             </div>
             <div class="boton__opcion">
-              <h8>Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
+              <h8 class="boton__opcion--titulo">Talle</h8>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
               </select>
+            </div>
+            <div>
+              <p class="precio"> $5100</p>
             </div>
             <div class="buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
+                    <a href=""><button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -155,31 +158,33 @@
       <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
         <div class=" galeriaItem-inner p-2 rounded">
           <div class="col-12">
-            <h5> Remerón <br>
-              Murcielago</h5>
+            <h5> BUZON Peces</h5>
           </div>
           <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/murcielagoVerde.jpg" alt="">
+            <img class="img-fluid" src="img/buzonPeces.jpeg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
             <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas. </p>
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas. </p>
             </div>
             <div class="boton__opcion">
               <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
               </select>
+            </div>
+            <div>
+              <p class="precio"> $5100</p>
             </div>
             <div class=" buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
+                    <a href=""><button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -191,31 +196,35 @@
       <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
         <div class=" galeriaItem-inner p-2 rounded">
           <div class="col-12">
-            <h5> Remerón Oveja Mutada</h5>
+            <h5> Buzon ROSA <br>
+            Escarabajo</h5>
           </div>
           <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/ovejaMutada.png" alt="">
+            <img class="img-fluid" src="img/buzonRosa.jpeg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
 
             <div class="col-12 mt-3">
-              <p>Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas. </p>
+              <p>Buzon oversize rústico estampado con serigrafia artesanal y tintas ecológicas.</p>
             </div>
             <div class="boton__opcion">
               <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
               </select>
+            </div>
+            <div>
+              <p class="precio"> $3500</p>
             </div>
             <div class="buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
+                    <a href=""><button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -226,31 +235,34 @@
       <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
         <div class=" galeriaItem-inner p-2 rounded">
           <div class="col-12">
-            <h5> Remerón <br>
-              Alcaucil </h5>
+            <h5>Buzon <br>
+              Suricata </h5>
           </div>
           <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/alcaucilAzul.jpg" alt="">
+            <img class="img-fluid" src="img/buzonSuri.jpeg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
             <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas. </p>
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas. </p>
             </div>
             <div class="boton__opcion">
               <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
               </select>
+            </div>
+            <div>
+              <p class="precio"> $1690</p>
             </div>
             <div class=" buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
+                    <a href=""><button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -266,83 +278,12 @@
               Chacal x 3</h5>
           </div>
           <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/chacalTriple.jpg" alt="">
+            <img class="img-fluid" src="img/chacalTriple.jpg" alt="imagenRemeron">
           </div>
           <div class="textWrapper">
 
             <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class="buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Remerón Corazón de Alcaucil</h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/corazon de alcaucil verde.png" alt="">
-          </div>
-          <div class="textWrapper">
-            <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class=" buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Remerón Escarabajo <br>
-              Mutado</h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/escarabajoMutado.jpg" alt="">
-          </div>
-          <div class="textWrapper">
-
-            <div class="col-12 mt-3">
-              <p> Remerón de algodon peinado estampado con serigrafía artesanal y tintas ecológicas.</p>
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
             </div>
             <div class="boton__opcion">
               <h8 class="boton__opcion--titulo">Talle</h8>
@@ -351,14 +292,95 @@
                 <option class="boton__opcion--opcion" value="2">2</option>
               </select>
             </div>
+            <div>
+              <p class="precio"> $1690</p>
+            </div>
             <div class="buttonWrapper col-12 mt-3">
               <div class="row ">
                 <div class=" col-12  d-flex justify-content-between">
                   <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
+                    <a href=""><button class="btn"> Lo quiero! </button></a>
                   </div>
                   <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </li>
+
+      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+        <div class=" galeriaItem-inner p-2 rounded">
+          <div class="col-12">
+            <h5> Remerón <br>
+              Corazón de Alcaucil</h5>
+          </div>
+          <div class="imagenWrapper col-12">
+            <img class="img-fluid" src="img/corazon de alcaucil verde.png" alt="imagenRemeron">
+          </div>
+          <div class="textWrapper">
+            <div class="col-12 mt-3">
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
+            </div>
+            <div class="boton__opcion">
+              <h8 class="boton__opcion--titulo">Talle</h8>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
+              </select>
+            </div>
+            <div>
+              <p class="precio"> $1690</p>
+            </div>
+            <div class=" buttonWrapper col-12 mt-3">
+              <div class="row ">
+                <div class=" col-12  d-flex justify-content-between">
+                  <div class="buttonContainer">
+                    <a href="https://mpago.la/1URFART"><button class="btn"> Lo quiero! </button></a>
+                  </div>
+                  <div class="buttonContainer">
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </li>
+
+      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+        <div class=" galeriaItem-inner p-2 rounded">
+          <div class="col-12">
+            <h5> BUZON <br>
+              Escarabajo Mutado</h5>
+          </div>
+          <div class="imagenWrapper col-12">
+            <img class="img-fluid" src="img/escarabajoMutado.jpg" alt="imagenRemeron">
+          </div>
+          <div class="textWrapper">
+
+            <div class="col-12 mt-3">
+              <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
+            </div>
+            <div class="boton__opcion">
+              <h8 class="boton__opcion--titulo">Talle</h8>
+              <select class="boton__opcion--opcion" name="talles">
+                <option class="boton__opcion--opcion" value="1"> 1</option>
+                <option class="boton__opcion--opcion" value="2">2</option>
+              </select>
+            </div>
+            <div>
+              <p class="precio"> $1690</p>
+            </div>
+            <div class="buttonWrapper col-12 mt-3">
+              <div class="row ">
+                <div class=" col-12  d-flex justify-content-between">
+                  <div class="buttonContainer">
+                    <a href="https://mpago.la/1URFART"> <button class="btn"> Lo quiero! </button> </a>
+                  </div>
+                  <div class="buttonContainer">
+                    <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                   </div>
                 </div>
               </div>
@@ -392,7 +414,7 @@
 
 <footer>
   <div>
-    <img class="logoFooter" src="img/logo.png" alt="logoAxolote">
+    <a href="index.html"><img class="logoFooter" src="img/logo.png" alt="logoAxolote"></a>
   </div>
   <div>
     <p> <small> Copyright &copy; 2021 Axolote Sin Genero | Todos los derechos reservados. </small> </p>

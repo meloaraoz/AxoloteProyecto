@@ -306,14 +306,15 @@ nav .navbar-brand {
 }
 
 @media (min-width: 320px) {
-  .nav {
-    min-width: 100%;
+  .logoNav {
+    display: none;
   }
-  .navbar {
-    width: 100%;
-  }
-  .nav {
-    width: 100%;
-  }
+}
+
+.precio {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=prueba.css.map */

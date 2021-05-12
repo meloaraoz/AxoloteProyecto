@@ -5,25 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
-    content="marca, ropa, unisex, sin genero, emprendimiento, buzos, abrigo, estampado, estampa, artesanal, ecologico">
+    content="marca, ropa, unisex, sin genero, emprendimiento, remeron, prendas, ropa oversize, oversize, remerones, estampado, estampa, artesanal, ecologico">
   <meta name="description" content="Tienda online de ropa sin genero. Emprendimiento autogestivo y artesanal">
 
-  <title>Buzos - Axolote - Ropa Sin Genero</title>
+  <title> Buzos - Axolote - Ropa Sin Genero</title>
+  <link rel="icon" href="img/favicon.png">
 
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sass/scss/prueba.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
     integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="sass/scss/prueba.css">
+
+
   <!--Fuentes-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
-<body class="cuerpoProductos">
-  <!--Seccion Navegacion-->
+<!--Navegacion-->
 
+<body class="cuerpoProductos">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">AXOLOTE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -35,7 +40,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            PRODUCTOS
+            Productos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="remeras.html">Remeras</a>
@@ -47,7 +52,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+          <a class="nav-link" href="preguntasFrecuentes.html"> Dudas Frecuentes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="talles.html"> Talles </a>
@@ -66,312 +71,379 @@
     </div>
   </nav>
 
+  <!--Fin seccion Navegacion -->
 
-  <!-- Fin Seccion Navegacion-->
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="img/buzonSuri.jpeg" alt="">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--Productos-->
 
-  <!--Productos-->
+ <section class="container mt-5">
+  <ul class="d-flex justify-content-between flex-wrap">
 
-  <section class="container mt-5">
-    <ul class="d-flex justify-content-between flex-wrap">
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Buzo Plerotus</h5>
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> Buzo Psilocybe </h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoPsilo.png" alt="imagenBuzo">
+        </div>
+        <div class="textWrapper">
+          <div class="col-12 mt-3">
+            <p> Buzo  de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
           </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzogirgo.png" alt="imagenBuzo">
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
           </div>
-          <div class="textWrapper">
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8>Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class=" buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> +</button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
-                  </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class=" buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href="https://mpago.la/1URFART"> <button class="btn"> Lo quiero! </button></a>
                 </div>
-              </div>
-            </div>
-
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Buzo Hinojo</h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoHinojo.png" alt="imagenBuzo">
-          </div>
-          <div class="textWrapper">
-
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8>Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class="buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
-                  </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                 </div>
               </div>
             </div>
           </div>
-      </li>
 
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Buzo Psilocybe </h5>
+        </div>
+    </li>
+
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> BUZO PLEROTUS</h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzogirgo.png" alt="imagenBuzo">
+        </div>
+        <div class="textWrapper">
+
+          <div class="col-12 mt-3">
+            <p> Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
           </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoPsilo.png" alt="imagenBuzo">
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
           </div>
-          <div class="textWrapper">
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class=" buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
-                  </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class="buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href=""><button class="btn"> Lo quiero! </button></a>
                 </div>
-              </div>
-            </div>
-
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> BUZO</h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzogirgo.png" alt="imagenBuzo">
-          </div>
-          <div class="textWrapper">
-
-            <div class="col-12 mt-3">
-              <p>Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class="buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
-                  </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                 </div>
               </div>
             </div>
           </div>
-      </li>
+        </div>
+    </li>
 
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> BUZO Gato Astral</h5>
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> BUZO Gato Astral</h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoGato.png" alt="imagenRemeron">
+        </div>
+        <div class="textWrapper">
+          <div class="col-12 mt-3">
+            <p> Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas. </p>
           </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoGato.png" alt="imagenBuzo">
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
           </div>
-          <div class="textWrapper">
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas. </p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class=" buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
-                  </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class=" buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href=""><button class="btn"> Lo quiero! </button></a>
                 </div>
-              </div>
-            </div>
-
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Buzo </h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoHinojo.png" alt="imagenBuzo">
-          </div>
-          <div class="textWrapper">
-
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class="buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
-                  </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                 </div>
               </div>
             </div>
           </div>
-      </li>
 
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5>Buzo</h5>
+        </div>
+    </li>
+
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> Buzo Hinojo </h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoHinojo.png" alt="imagenBuzo">
+        </div>
+        <div class="textWrapper">
+
+          <div class="col-12 mt-3">
+            <p>Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
           </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoPsilo.png" alt="imagenBuzo">
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
           </div>
-          <div class="textWrapper">
-            <div class="col-12 mt-3">
-              <p>Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select name="talles" id="">
-                <option value="1"> 1</option>
-                <option value="2">2</option>
-              </select>
-            </div>
-            <div class=" buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> -</button>
-                  </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class="buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href=""><button class="btn"> Lo quiero! </button></a>
                 </div>
-              </div>
-            </div>
-
-          </div>
-      </li>
-
-      <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
-        <div class=" galeriaItem-inner p-2 rounded">
-          <div class="col-12">
-            <h5> Buzo </h5>
-          </div>
-          <div class="imagenWrapper col-12">
-            <img class="img-fluid" src="img/buzoHinojo.png" alt="imagenBuzo">
-          </div>
-          <div class="textWrapper">
-
-            <div class="col-12 mt-3">
-              <p> Buzo de friza peinada, estampado en serigrafia artsanal con tintas ecológicas.</p>
-            </div>
-            <div class="boton__opcion">
-              <h8 class="boton__opcion--titulo">Talle</h8>
-              <select class="boton__opcion--opcion" name="talles">
-                <option class="boton__opcion--opcion" value="1"> 1</option>
-                <option class="boton__opcion--opcion" value="2">2</option>
-              </select>
-            </div>
-            <div class="buttonWrapper col-12 mt-3">
-              <div class="row ">
-                <div class=" col-12  d-flex justify-content-between">
-                  <div class="buttonContainer">
-                    <button class="btn btn-primary"> + </button>
-                  </div>
-                  <div class="buttonContainer">
-                    <button class="btn btn btn-outline-dark"> - </button>
-                  </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
                 </div>
               </div>
             </div>
           </div>
-      </li>
+        </div>
+    </li>
 
-    </ul>
-  </section>
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5>Buzo lunas </h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoLunas.png" alt="imagenRemeron">
+        </div>
+        <div class="textWrapper">
+          <div class="col-12 mt-3">
+            <p> Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas. </p>
+          </div>
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
+          </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class=" buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href=""><button class="btn"> Lo quiero! </button></a>
+                </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </li>
+
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> Buzo Oveja</h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoOveja.png" alt="imagenRemeron">
+        </div>
+        <div class="textWrapper">
+
+          <div class="col-12 mt-3">
+            <p> Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
+          </div>
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
+          </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class="buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href=""><button class="btn"> Lo quiero! </button></a>
+                </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </li>
+
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> Remerón oveja mutada</h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoOvejaMut.png" alt="imagenRemeron">
+        </div>
+        <div class="textWrapper">
+          <div class="col-12 mt-3">
+            <p> Buzon oversize de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
+          </div>
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
+          </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class=" buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href="https://mpago.la/1URFART"><button class="btn"> Lo quiero! </button></a>
+                </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </li>
+
+    <li class=" col-12 col-sm-6 col-lg-4 col-xl-3  galeriaItem">
+      <div class=" galeriaItem-inner p-2 rounded">
+        <div class="col-12">
+          <h5> BUZO SURICATA</h5>
+        </div>
+        <div class="imagenWrapper col-12">
+          <img class="img-fluid" src="img/buzoSuri.png" alt="imagenRemeron">
+        </div>
+        <div class="textWrapper">
+
+          <div class="col-12 mt-3">
+            <p> Buzo de friza, estampado con serigrafia artesanal y tintas ecológicas.</p>
+          </div>
+          <div class="boton__opcion">
+            <h8 class="boton__opcion--titulo">Talle</h8>
+            <select class="boton__opcion--opcion" name="talles">
+              <option class="boton__opcion--opcion" value="S"> S</option>
+              <option class="boton__opcion--opcion" value="M">M</option>
+              <option class="boton__opcion--opcion" value="L">L</option>
+              <option class="boton__opcion--opcion" value="XL">XL</option>
+              <option class="boton__opcion--opcion" value="XXL">XXL</option>
+            </select>
+          </div>
+          <div>
+            <p class="precio"> $3600</p>
+          </div>
+          <div class="buttonWrapper col-12 mt-3">
+            <div class="row ">
+              <div class=" col-12  d-flex justify-content-between">
+                <div class="buttonContainer">
+                  <a href="https://mpago.la/1URFART"> <button class="btn"> Lo quiero! </button> </a>
+                </div>
+                <div class="buttonContainer">
+                  <a href="talles.html"><button class="btn"> Ver medidas </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </li>
+
+  </ul>
+</section>
 
 
 
+<!--Scripts-->
 
 
-  <!-- scripts -->
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+  integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+  crossorigin="anonymous"></script>
 
 
 </body>
@@ -379,26 +451,26 @@
 <!--SeccionPieDePagina-->
 
 <footer>
-  <div>
-    <img class="logoFooter" src="img/logo.png" alt="logoAxolote">
-  </div>
-  <div>
-    <p> <small> Copyright &copy; 2021 Axolote Sin Genero | Todos los derechos reservados. </small> </p>
-  </div>
-  <div class="iconos">
+<div>
+  <a href="index.html"><img class="logoFooter" src="img/logo.png" alt="logoAxolote"></a>
+</div>
+<div>
+  <p> <small> Copyright &copy; 2021 Axolote Sin Genero | Todos los derechos reservados. </small> </p>
+</div>
+<div class="iconos">
 
-    <div class="iconos__pie">
-      <a href="https://www.facebook.com/axolote.singenero"><i class="fab fa-facebook"></i></a>
-    </div>
-    <div class="iconos__pie">
-      <a href="https://www.instagram.com/axolote.singenero/"><i class="fab fa-instagram"></i></a>
-    </div>
-    <div class="iconos__pie">
-      <a href="https://api.whatsapp.com/send/?phone=5491128163465&text&app_absent=0"><i class="fab fa-whatsapp"></i></a>
-    </div>
+  <div class="iconos__pie">
+    <a href="https://www.facebook.com/axolote.singenero"><i class="fab fa-facebook"></i></a>
   </div>
+  <div class="iconos__pie">
+    <a href="https://www.instagram.com/axolote.singenero/"><i class="fab fa-instagram"></i></a>
+  </div>
+  <div class="iconos__pie">
+    <a href="https://api.whatsapp.com/send/?phone=5491128163465&text&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</div>
 
-  </div>
+</div>
 
 
 </footer>
