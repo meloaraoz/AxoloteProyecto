@@ -317,4 +317,9 @@ nav .navbar-brand {
   font-size: 25px;
   margin-top: 5px;
 }
+
+.pagError {
+  margin-top: 3rem;
+  height: 100vh;
+}
 /*# sourceMappingURL=prueba.css.map */
