@@ -330,4 +330,11 @@ nav .nav-link {
     font-size: 2rem;
   }
 }
+
+@media (min-width: 1300px) {
+  .tituloInicio {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=prueba.css.map */
