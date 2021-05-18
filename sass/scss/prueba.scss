@@ -8,14 +8,6 @@ $rosa: rgb(204, 174, 252);
   margin: 0;
 }
 
-
-.tituloInicio {
-  margin-top: 2rem;
-  font-size: 2rem;
-  }
-  
-
-
 .productosDestacados {
   font-family: $title-font;
   text-align: center;
@@ -363,7 +355,11 @@ nav {
   margin-top: 6rem;
 }
 
-
+.tituloInicio {
+  margin-top: 2rem;
+  font-size: 2rem;
+  }
+  
 /*MEDIA*/
 
 @media (min-width: 300px) {

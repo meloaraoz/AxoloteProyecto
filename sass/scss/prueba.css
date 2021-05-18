@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-.tituloInicio {
-  margin-top: 2rem;
-  font-size: 2rem;
-}
-
 .productosDestacados {
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
@@ -314,6 +309,11 @@ nav .nav-link {
 .contenedorBotones {
   background-color: black;
   margin-top: 6rem;
+}
+
+.tituloInicio {
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 
 /*MEDIA*/
