@@ -3,14 +3,9 @@
   margin: 0;
 }
 
-.contenedorBotonesInicio {
-  background-color: black;
-  width: 100%;
-  height: 20rem;
-}
-
-.carrusel-item {
-  height: 30rem;
+.tituloInicio {
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 
 .productosDestacados {
@@ -20,6 +15,7 @@
   font-size: 28px;
 }
 
+/*Botonoes Inicio Indice Productos*/
 .botonInicio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +41,7 @@
   font-size: 20px;
 }
 
+/*Carrusel*/
 .tituloCarrusel {
   font-family: "Bebas Neue", sans-serif;
   font-size: 32px;
@@ -58,10 +55,6 @@
 
 .parrafoCarrusel {
   font-family: "Bebas Neue", sans-serif;
-}
-
-.cuerpoIndice {
-  background-color: whitesmoke;
 }
 
 .contenedor {
@@ -80,6 +73,7 @@ body {
   height: 100%;
 }
 
+/*Enlaces*/
 a {
   color: black;
   font-size: 25px;
@@ -89,6 +83,7 @@ a:hover {
   color: #ccaefc;
 }
 
+/*Pie de Pagina*/
 footer {
   background-color: whitesmoke;
   color: black;
@@ -105,11 +100,13 @@ footer {
   height: 6rem;
 }
 
+/*Listas*/
 li {
   text-decoration: none;
   list-style: none;
 }
 
+/*h1,h3,p*/
 h1 {
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
@@ -130,6 +127,7 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Navegacion*/
 nav {
   color: black;
   font-size: 1rem;
@@ -152,10 +150,6 @@ nav .nav-link {
 
 .navbar-toggler {
   margin-top: 10px;
-}
-
-.accordion {
-  text-align: center;
 }
 
 /* CONTACTO */
@@ -195,7 +189,7 @@ nav .nav-link {
   padding: 6px;
 }
 
-/*BEM contenedor Imagenes  */
+/*contenedor Imagenes  */
 .contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,7 +220,7 @@ nav .nav-link {
   margin-left: 1rem;
 }
 
-/*BEM botones Talles */
+/*Botones Talles */
 .boton__opcion {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,7 +252,7 @@ nav .nav-link {
 }
 
 .buttonContainer :hover {
-  background-color: #d0b8f8;
+  background-color: #ccaefc;
   color: black;
 }
 
@@ -281,6 +275,7 @@ nav .nav-link {
   font-size: 20px;
 }
 
+/* Preguntas Frecuentes */
 .card {
   color: black;
   min-height: 100vh;
@@ -301,6 +296,7 @@ nav .nav-link {
   font-size: 18px;
 }
 
+/*Precio Productos*/
 .precio {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
@@ -308,13 +304,30 @@ nav .nav-link {
   margin-top: 5px;
 }
 
+/*Pagina 404*/
 .pagError {
   margin-top: 3rem;
   height: 100vh;
 }
 
+/*Botones de Indice Productos*/
 .contenedorBotones {
   background-color: black;
   margin-top: 6rem;
+}
+
+/*MEDIA*/
+@media (min-width: 300px) {
+  .tituloInicio {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .tituloInicio {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=prueba.css.map */

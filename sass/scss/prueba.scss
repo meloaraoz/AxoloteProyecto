@@ -1,19 +1,19 @@
 $title-font: 'Bebas Neue', sans-serif;
 $fondo: whitesmoke;
 $font: black, sans-serif;
+$rosa: rgb(204, 174, 252);
 
 *{ 
   padding: 0;
   margin: 0;
 }
-.contenedorBotonesInicio {
-  background-color: black;
-  width: 100%;
-  height: 20rem;
-}
-.carrusel-item {
-  height: 30rem;
-}
+
+
+.tituloInicio {
+  margin-top: 2rem;
+  font-size: 2rem;
+  }
+  
 
 
 .productosDestacados {
@@ -22,6 +22,9 @@ $font: black, sans-serif;
   margin-top: 2rem;
   font-size: 28px;
 }
+
+
+/*Botonoes Inicio Indice Productos*/
 
 .botonInicio {
   display: flex;
@@ -35,9 +38,11 @@ $font: black, sans-serif;
   
 }
 .botonInicioM :hover {
-  background-color: rgb(204, 174, 252);
+  background-color: $rosa;
   font-size: 20px;
 }
+
+/*Carrusel*/
 
 .tituloCarrusel {
   font-family: $title-font;
@@ -52,9 +57,6 @@ $font: black, sans-serif;
   font-family: $title-font;
 }
 
-.cuerpoIndice {
-  background-color: whitesmoke;
-}
 .contenedor {
   background-color: black;
 }
@@ -76,14 +78,18 @@ body {
     height: 100%;
 }
 
+/*Enlaces*/
+
 a {
   color: black;
   font-size: 25px;
 }
 
 a:hover {
-  color: rgb(204, 174, 252);
+  color: $rosa;
 }
+
+/*Pie de Pagina*/
 
 footer {
   background-color: $fondo;
@@ -99,6 +105,7 @@ footer {
   height: 6rem;
 } 
 
+/*Listas*/
 
 li {
 
@@ -108,7 +115,7 @@ li {
 
 }
 
-
+/*h1,h3,p*/
 
 h1 {
 
@@ -131,7 +138,7 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/*Navegacion*/
 
 nav {
   color: black;
@@ -159,12 +166,6 @@ nav {
 }
 
 
-.accordion {
-  
-  text-align: center;
-}
-
-
  /* CONTACTO */ 
 
 .contenedor{
@@ -187,8 +188,6 @@ nav {
 }
 
 
-
-
  /* ICONOS */ 
 
 .iconos {
@@ -204,10 +203,7 @@ nav {
   }
 }
 
-
-
- /*BEM contenedor Imagenes  */ 
-
+ /*contenedor Imagenes  */ 
 
 
 .contenedor {
@@ -249,12 +245,7 @@ nav {
  }
 
 
-
-
-
-
-/*BEM botones Talles */ 
-
+/*Botones Talles */ 
 
 
 .boton__opcion {
@@ -297,7 +288,7 @@ nav {
 }
 
 .buttonContainer :hover{
-  background-color: rgb(208, 184, 248);
+  background-color: $rosa;
   color: black;
 }
 
@@ -324,6 +315,7 @@ nav {
 }
 
 
+/* Preguntas Frecuentes */
 
 .card {
   color: black;
@@ -348,6 +340,7 @@ nav {
   
 }
 
+/*Precio Productos*/
 
 .precio {
   text-align: center;
@@ -356,13 +349,32 @@ nav {
   margin-top: 5px;
 }
 
+/*Pagina 404*/
+
 .pagError {
   margin-top: 3rem;
   height: 100vh;
 }
 
+/*Botones de Indice Productos*/
 
 .contenedorBotones {
   background-color: black;
   margin-top: 6rem;
+}
+
+
+/*MEDIA*/
+
+@media (min-width: 300px) {
+  .tituloInicio {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1000px) {
+  .tituloInicio {
+    margin-top: 2rem;
+    font-size: 2rem;
+    }
 }
