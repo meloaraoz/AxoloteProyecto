@@ -127,7 +127,7 @@ h3 {
 p {
   text-align: center;
   color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 
 /*Navegacion*/
@@ -376,6 +376,29 @@ nav {
 
  } 
 
+ .container {
+   margin-top: 4rem;
+   margin-bottom: 10rem;
+ }
+ .contenedorTalleProducto {
+  padding: 3px;
+  margin-top: 2rem;
+ }
+
+.botonCompra {
+  margin-top: 3rem;
+  
+}
+.botonCompraMod {
+
+  width: 8rem;
+  height: 6rem;
+  font-size: 25px;
+
+}
+.tituloProducto {
+  font-size: 30px;
+}
 
 
 /*MEDIA*/
@@ -385,6 +408,7 @@ nav {
     font-size: 1rem;
     margin-top: 1rem;
   }
+
 }
 
 
