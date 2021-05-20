@@ -366,13 +366,6 @@ nav .nav-link {
     font-size: 1rem;
     margin-top: 1rem;
   }
-  .tituloInicio .container {
-    margin-top: 1rem;
-  }
-  .tituloInicio .container .botonCompraMod {
-    width: 6rem;
-    height: 4rem;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -380,26 +373,12 @@ nav .nav-link {
     margin-top: 2rem;
     font-size: 2rem;
   }
-  .tituloInicio .container {
-    margin-top: 1rem;
-  }
-  .tituloInicio .container .botonCompraMod {
-    width: 6rem;
-    height: 4rem;
-  }
 }
 
 @media (min-width: 1000px) and (min-width: 1300px) {
-  .tituloInicio .tituloInicio {
+  .tituloInicio {
     margin-top: 2rem;
     font-size: 2rem;
-  }
-  .tituloInicio .tituloInicio .container {
-    margin-top: 1rem;
-  }
-  .tituloInicio .tituloInicio .container .botonCompraMod {
-    width: 6rem;
-    height: 4rem;
   }
 }
 /*# sourceMappingURL=prueba.css.map */

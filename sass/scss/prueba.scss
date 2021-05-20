@@ -407,15 +407,7 @@ nav {
   .tituloInicio {
     font-size: 1rem;
     margin-top: 1rem;
-    .container {
-      margin-top: 1rem;
-    .botonCompraMod {
-      width: 6rem;
-      height: 4rem;
-    }
-    }
-  }
-
+}
 }
 
 
@@ -423,26 +415,14 @@ nav {
   .tituloInicio {
     margin-top: 2rem;
     font-size: 2rem;
-    .container {
-      margin-top: 1rem;
-    .botonCompraMod {
-      width: 6rem;
-      height: 4rem;
-    }
+   
 }
 
 @media (min-width: 1300px) {
   .tituloInicio {
     margin-top: 2rem;
     font-size: 2rem;
-    .container {
-      margin-top: 1rem;
-    .botonCompraMod {
-      width: 6rem;
-      height: 4rem;
     }
   }
 }
-}
-}
-}
+
