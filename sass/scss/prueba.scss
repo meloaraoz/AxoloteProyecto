@@ -195,7 +195,7 @@ nav {
   }
 }
 
- /*contenedor Imagenes  */ 
+ /* Contenedor Imagenes  */ 
 
 
 .contenedor {
@@ -360,6 +360,24 @@ nav {
   font-size: 2rem;
   }
   
+
+ .contenedorTalles {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
+   padding: 1rem;
+   align-content: center;
+
+   .imagenTalle {
+    text-align: center;
+    padding: 3px;
+  }
+
+ } 
+
+
+
 /*MEDIA*/
 
 @media (min-width: 300px) {
